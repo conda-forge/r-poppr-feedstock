@@ -5,11 +5,9 @@ Home: https://github.com/grunwaldlab/poppr, https://grunwaldlab.github.io/Popula
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-poppr-feedstock/blob/master/LICENSE.txt)
 
 Summary: Population genetic analyses for hierarchical analysis of partially clonal populations built upon the architecture of the 'adegenet' package. Originally described in Kamvar, Tabima, and Grünwald (2014) <doi:10.7717/peerj.281> with version 2.0 described in Kamvar, Brooks, and Grünwald (2015) <doi:10.3389/fgene.2015.00208>.
-
-
 
 Current build status
 ====================
@@ -29,49 +27,37 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_r_base3.6target_platformlinux-64</td>
+              <td>linux_64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10038&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=linux&configuration=linux_r_base3.6target_platformlinux-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_r_base4.0target_platformlinux-64</td>
+              <td>linux_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10038&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=linux&configuration=linux_r_base4.0target_platformlinux-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=linux&configuration=linux_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_r_base3.6target_platformosx-64</td>
+              <td>osx_64_r_base3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10038&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=osx&configuration=osx_r_base3.6target_platformosx-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_r_base4.0target_platformosx-64</td>
+              <td>osx_64_r_base4.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=10038&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=osx&configuration=osx_r_base4.0target_platformosx-64" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-poppr-feedstock?branchName=master&jobName=osx&configuration=osx_64_r_base4.0" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Windows</td>
-    <td>
-      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
