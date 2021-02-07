@@ -1,4 +1,4 @@
-{% set version = "2.8.7" %}
+{% set version = "2.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/poppr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/poppr/poppr_{{ version }}.tar.gz
-  sha256: 599b220d0ea4ed046f312eb3b04018a3b927f02167bc17f8e3440d15bb3b7d47
+  sha256: b2c78edd5c1739080823e8b99bbc85fd589461a993a82e621bd6cd759aab6d22
 
 build:
   merge_build_host: true  # [win]
