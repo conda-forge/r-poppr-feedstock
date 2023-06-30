@@ -6,19 +6,23 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-poppr-feedsto
 About r-poppr
 -------------
 
-Home: https://github.com/grunwaldlab/poppr, https://grunwaldlab.github.io/Population_Genetics_in_R/
+Home: https://github.com/grunwaldlab/poppr
 
 Package license: GPL-2.0-or-later
 
 Summary: Population genetic analyses for hierarchical analysis of partially clonal populations built upon the architecture of the 'adegenet' package. Originally described in Kamvar, Tabima, and Grünwald (2014) <doi:10.7717/peerj.281> with version 2.0 described in Kamvar, Brooks, and Grünwald (2015) <doi:10.3389/fgene.2015.00208>.
+
+Documentation: https://grunwaldlab.github.io/Population_Genetics_in_R/
 About r-poppr
 -------------
 
-Home: https://github.com/grunwaldlab/poppr, https://grunwaldlab.github.io/Population_Genetics_in_R/
+Home: https://github.com/grunwaldlab/poppr
 
 Package license: GPL-2.0-or-later
 
 Summary: Population genetic analyses for hierarchical analysis of partially clonal populations built upon the architecture of the 'adegenet' package. Originally described in Kamvar, Tabima, and Grünwald (2014) <doi:10.7717/peerj.281> with version 2.0 described in Kamvar, Brooks, and Grünwald (2015) <doi:10.3389/fgene.2015.00208>.
+
+Documentation: https://grunwaldlab.github.io/Population_Genetics_in_R/
 
 Current build status
 ====================
