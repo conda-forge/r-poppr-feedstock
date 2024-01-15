@@ -3,6 +3,7 @@ About r-poppr-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-poppr-feedstock/blob/main/LICENSE.txt)
 
+
 About r-poppr
 -------------
 
@@ -13,6 +14,7 @@ Package license: GPL-2.0-or-later
 Summary: Population genetic analyses for hierarchical analysis of partially clonal populations built upon the architecture of the 'adegenet' package. Originally described in Kamvar, Tabima, and Grünwald (2014) <doi:10.7717/peerj.281> with version 2.0 described in Kamvar, Brooks, and Grünwald (2015) <doi:10.3389/fgene.2015.00208>.
 
 Documentation: https://grunwaldlab.github.io/Population_Genetics_in_R/
+
 About r-poppr
 -------------
 
@@ -150,7 +152,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
