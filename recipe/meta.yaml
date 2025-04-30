@@ -12,15 +12,33 @@ source:
   sha256: cdfd774348bae30cf3e35c65b4fb693e75ed4835c6001b4ff9db35824a16c632
 
 build:
-  # Checking windows to see if it passes. Uncomment the line if it fails.
-  # skip: true  # [win]
-  number: 1
+  number: 2
   rpaths:
     - lib/R/lib/
     - lib/
+  missing_dso_whitelist:
+    - '*/R.dll'        # [win]
+    - '*/Rblas.dll'    # [win]
+    - '*/Rlapack.dll'  # [win]
 
 requirements:
   build:
+    - cross-r-base {{ r_base }}  # [build_platform != target_platform]
+    - r-ade4                     # [build_platform != target_platform]
+    - r-adegenet >=2.0.0         # [build_platform != target_platform]
+    - r-ape >=3.1_1              # [build_platform != target_platform]
+    - r-boot                     # [build_platform != target_platform]
+    - r-dplyr >=0.4              # [build_platform != target_platform]
+    - r-ggplot2                  # [build_platform != target_platform]
+    - r-igraph >=1.0.0           # [build_platform != target_platform]
+    - r-magrittr                 # [build_platform != target_platform]
+    - r-pegas                    # [build_platform != target_platform]
+    - r-phangorn                 # [build_platform != target_platform]
+    - r-polysat                  # [build_platform != target_platform]
+    - r-progressr                # [build_platform != target_platform]
+    - r-rlang                    # [build_platform != target_platform]
+    - r-shiny                    # [build_platform != target_platform]
+    - r-vegan                    # [build_platform != target_platform]
     - {{ compiler('c') }}        # [not win]
     - {{ stdlib("c") }}          # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
@@ -30,9 +48,9 @@ requirements:
     - {{ posix }}sed             # [win]
     - {{ posix }}coreutils       # [win]
     - {{ posix }}zip             # [win]
-  host:
     - llvm-openmp                # [osx]
     - libgomp                    # [linux]
+  host:
     - r-base
     - r-ade4
     - r-adegenet >=2.0.0
@@ -49,6 +67,7 @@ requirements:
     - r-rlang
     - r-shiny
     - r-vegan
+    - llvm-openmp                # [osx]
   run:
     - r-base
     - r-ade4
@@ -66,6 +85,7 @@ requirements:
     - r-rlang
     - r-shiny
     - r-vegan
+    - llvm-openmp                # [osx]
 
 test:
   commands:
