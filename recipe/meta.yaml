@@ -33,7 +33,6 @@ requirements:
     - r-igraph >=1.0.0           # [build_platform != target_platform]
     - r-magrittr                 # [build_platform != target_platform]
     - r-pegas                    # [build_platform != target_platform]
-    - r-phangorn                 # [build_platform != target_platform]
     - r-polysat                  # [build_platform != target_platform]
     - r-progressr                # [build_platform != target_platform]
     - r-rlang                    # [build_platform != target_platform]
@@ -61,7 +60,6 @@ requirements:
     - r-igraph >=1.0.0
     - r-magrittr
     - r-pegas
-    - r-phangorn
     - r-polysat
     - r-progressr
     - r-rlang
@@ -79,7 +77,6 @@ requirements:
     - r-igraph >=1.0.0
     - r-magrittr
     - r-pegas
-    - r-phangorn
     - r-polysat
     - r-progressr
     - r-rlang
