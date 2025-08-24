@@ -1,4 +1,4 @@
-{% set version = "2.9.7" %}
+{% set version = "2.9.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/poppr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/poppr/poppr_{{ version }}.tar.gz
-  sha256: df558152c12bb8581835da5891421c555f6fc92ddc21236597a60fd65caca9ab
+  sha256: e31d9c481f21025edc7dc9073b2a14c283364c7909760720925d922c10e31a2d
 
 build:
   number: 0
